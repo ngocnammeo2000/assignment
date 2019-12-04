@@ -1,0 +1,502 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: auto;
+}
+.container{
+    max-width: 960px;
+    margin: auto;
+}
+.menu{
+    margin: auto;
+    background-color: #2c3e50;
+}
+.menu-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+
+
+    
+}
+.logo{   
+    display: grid; 
+    align-items: center; 
+}
+.logo p{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.logo a{
+    align-items: center;
+    text-decoration: none;
+    color: black;
+
+    
+}
+.logo a span{
+    color: #e67e22;
+}
+.banner nav{
+    text-align: right;
+
+}
+.menu nav{
+    text-align: right;
+}
+nav li{
+ display: inline-block;
+ margin: 5px;
+ 
+ 
+}
+nav li a{
+    text-decoration: none;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f39c12;
+    color: white;
+    
+}
+nav li a:hover{
+    color: white;
+    background-color: #1abc9c;
+}
+.banner{
+    margin: auto;
+    background-color: #1abc9c; 
+}
+.banner-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-gap: 30px;
+}
+.create-frames{
+    border: 1px solid grey;
+    background-color: #f39c12; 
+    color: white;
+}
+.create-frames a{
+    color: white;
+    text-decoration: none;
+}
+.create-frames h1{
+    margin-left: 10px;
+}
+.create-frames p{
+    margin-left: 10px;
+}
+.banner-row h2{
+    margin-left: 10px;
+     color: white;
+}
+.button{
+    text-align: center;
+
+}
+
+
+.banner-row .button a{
+    text-decoration: none;
+    padding: 16px;   
+    color: white;
+
+}
+.banner-row .button-features:hover{
+    background-color: #f39c12;
+    color: white;
+    width: 134px;
+}
+.banner-row .button-buy:hover{
+    background-color: #f39c12;
+    color: white;
+    width: 134px;
+}
+
+.latest-project{
+    margin: auto;
+    background-color: #2c3e50;
+}
+.project-row{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    grid-gap: 30px;
+}
+.see h1 a{
+    text-decoration: none;
+    color: #f39c12;
+}
+.see p{ 
+    color: white;
+}
+.see-frames{
+    max-width: 280px;
+    border: 1px solid #f39c12;
+    padding: 5px;
+    background-color: #f39c12;
+    color: white;
+}
+.latest-project .project-button{
+    max-width: 105px; 
+    height: 46px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.project-button p a{
+    border: 1px solid #f39c12;
+    background-color: #f39c12;
+    text-decoration: none;
+    color: white;
+    padding: 15px ;
+    border-radius: 5px;
+}
+.latest-toons{
+    margin: auto;
+    background-color: #16a085;
+}
+.latest-toons .toons-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-gap: 30px;
+}
+.toons .toons-frames{
+    max-width: 440px;
+    border: 1px solid grey;
+    color: #f39c12;
+    background-color: #2c3e50 ;
+}
+iframe{
+    max-width:1008px; 
+    height:auto;
+    margin-top: 65px;
+}
+.toons-frames p{
+    margin-left: 10px;
+}
+.toons h1{
+    margin-left: 10px;
+    color: white;
+}
+.more{
+    max-width: 150px;
+    border: 1px solid #f39c12;
+    background-color: #f39c12;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 130px;
+}
+
+ .more p{  
+    border: 1px solid #f39c12;
+    background-color: #f39c12;
+}
+ .more p a{   
+    text-decoration: none;
+    color: white;
+}
+.latest-simple{
+    margin: auto;
+    background-color:#2c3e50;
+
+}
+.simple-row{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 30px;
+}
+
+.simple-frames{
+    max-width: 420px ;
+    border: 1px solid #f39c12;
+    background-color: #f39c12;
+}
+.simple-row h1{
+    margin-left: 10px;
+    color: #f39c12;
+}
+.simple-row p{
+    margin-left: 10px;
+    color: white;
+}
+.simple-button{
+    margin-top: 40px;
+ 
+}
+.simple-button p{
+    padding: 10px;
+    
+}
+.simple-button p a{
+    border: 1px solid #f39c12;
+    background-color: #f39c12;
+    border-radius: 5px;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.latest-powreful{
+    margin: auto;
+    background-color: #16a085;
+}
+.powreful-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-gap: 220px;
+}
+.powreful{
+    color: white;
+}
+.powreful-row h1{
+    margin: 10px    ;
+}
+.powreful-frames{
+    border: 1px solid #2c3e50;
+    max-width: 460px;
+    background-color:#2c3e50 ;
+    color: white;
+}
+.powreful-frames p{
+    margin: 10px;
+
+}
+ .powreful-button{
+    max-width: 150px;
+    height: 55px;
+    background-color:#f39c12 ;
+    border: 1px solid #f39c12;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 220px;
+    margin-top: 40px;
+    
+}
+ .powreful-button p{
+    margin-top: 20px;
+}
+ .powreful-button a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.latest-our{
+    margin: auto;
+    background-color:#f39c12 ;
+}
+.our-row{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+.our{
+    margin: auto;
+}
+.our-frames {
+    border: 1px solid #2c3e50;
+    max-width: 250px;
+    color: white;
+    background-color:#2c3e50 ;
+    
+}
+.our-frames p{
+    margin: 10px;
+}
+.our h1{
+    margin: 10px;
+}
+.our h1 a{
+    text-decoration: none;
+    color: white;
+}
+.our h1 a:hover{
+    color: #2c3e50;
+}
+.license-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    text-align: center;
+    color: white;
+    margin: 50px;
+    
+}
+.license-button{
+    max-width: 150px;
+    height: 45px;  
+    text-align: center;
+    margin: auto;
+}
+
+.license-button p{
+    margin-top: 30px;
+    background-color: #f39c12;
+    max-width: 170px;
+    padding: 20px;
+    border: 1px solid #f39c12;
+    border-radius: 5px;
+    
+}
+.license-button a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-top: 40px; 
+}
+.license{
+    border: 1px solid #2c3e50;
+    background-color: #2c3e50 ; 
+    max-width: 310px;
+    height: 330px;
+}
+.latest-lorem{
+    background-color: #2c3e50;  
+    color: white;
+    padding: 10px;
+}
+.lorem{
+    max-width: 1100px;
+    text-align: center;
+}
+.latest-lorem p{
+    padding: 30px;  
+}
+footer{
+    background-color: #f39c12;
+    color: white;
+    
+}
+footer p{
+    font-size: 12px;
+    margin-left: 680px;
+    padding: 10px;
+    
+}
+
+.toons-frame{
+    
+    color: white;
+    margin-left: 10px;
+}
+.powreful-frame p{
+   padding: 10px;
+   margin: 10px;
+}
+@media(max-width:960px){
+    .menu-row{
+        grid-template-columns: 1fr ;      
+    }
+    .powreful-frame p{
+        margin: 0 auto;
+    }
+    .more{   
+        margin: 0 auto;
+    }
+    nav{
+        margin: 0 auto;  
+        padding-bottom: 20px;  
+    }
+    .logo{
+        margin: 0 auto;
+    }
+
+    .banner-row{
+        grid-template-columns: 1fr ;  
+        
+    }
+    .our{
+        margin: auto;
+        text-align: center;
+    }
+    .our-frames{
+        margin: auto;
+    }
+    .banner-images{
+        margin: auto;
+    }
+    .project-row{
+        grid-template-columns: 1fr ; 
+    }
+    .create-frames{
+        text-align: center;
+    }
+    .see{
+        margin: auto;
+        text-align: center;
+    }
+    .see-frames{
+        margin: auto;
+    }
+    .simple-row{
+        grid-template-columns: 1fr ; 
+        text-align: center;
+    }
+    .toons-frames{
+        margin: auto;
+    }
+    .simple-frames{
+        margin: auto;
+    }
+    .powreful-button{
+        margin: auto;
+    }
+    .powreful-frames{
+        margin: auto;
+    }
+    .latest-toons .toons-row{
+        grid-template-columns: 1fr ; 
+        
+    }
+    .powreful-row{
+        grid-template-columns: 1fr ;      
+    }
+    
+    .powreful-button{
+       margin: 0 auto;
+    }
+    .our-row{
+        grid-template-columns: 1fr ; 
+    }
+    .our {
+        margin: auto;
+    }
+    .simple-button p{
+       text-align: center;
+    }
+    .project-button{
+        margin: auto;
+    }
+    .license-row {
+        
+        grid-template-columns: 1fr 1fr;
+    }
+    .toons{
+        margin: auto;
+        text-align: center;
+    }
+    .image{
+        margin: auto;
+    }
+    .simple{
+        margin: auto;
+    }
+    .powreful{
+        margin: auto;
+        text-align: center;
+    }
+    footer p{
+        font-size: 12px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+}
+
